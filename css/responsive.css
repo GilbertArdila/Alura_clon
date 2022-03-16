@@ -46,3 +46,32 @@
 }
 
 }
+@media (max-width:1000px){
+    .rodapePrincipal-patrocinadores .container{
+        flex-direction: column;
+    
+    }
+    .rodapePrincipal-patrocinadores-list{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 0;
+        
+    }   
+    .rodapePrincipal-patrocinadores-list li{
+        margin-bottom: 20px;
+    }
+    .rodapePrincipal-contatoForm{
+        width: 100%;
+    }
+    .rodapePrincipal-contatoForm-fieldset{
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+         margin: 0 auto;
+    
+    }
+    .rodapePrincipal-contatoForm-submit{
+        margin-top: 10px;
+    }
+}
